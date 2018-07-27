@@ -72,6 +72,11 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+
+#hrIdName
+{
+	background-color: white;
+}
 /* Navigation */
 #nav {
 	z-index: 9999;
@@ -128,9 +133,9 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555;
+	color: white;
 	background-color: transparent;
-	border-color: #777;
+	border-color: white;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
@@ -139,7 +144,7 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
+	background-color: #3498db;
 	border-color: #121d1f;
 }
 /* Header Section */
@@ -149,8 +154,9 @@ hr {
 	padding: 0;
 	text-align: center;
 	color: #333;
-	background: url(../coffee.jpg) no-repeat center top;
+	background: url(../sunflower.jpg) no-repeat center top;
 	background-color: #e5e5e5;
+	background-position:  center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -165,12 +171,13 @@ hr {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #333;
+	color: white;
 }
 .intro p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+	color: white;
 }
 header .intro-text {
 	padding-top: 200px;
@@ -422,3 +429,46 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer a:hover {
 	color: #000;
 }
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.list-coursework {
+	text-align: left;
+
+}
+
+.list-book {
+	text-align: left;
+}
+
+
+/* css animation for email */
+body h2.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.img-responsive-smaller {
+  max-width: 50%;
+  height: auto;
+}
+
