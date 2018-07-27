@@ -462,7 +462,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 
 /* css animation for email */
-body h2.animated {
+body h3.animated {
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
