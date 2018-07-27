@@ -4,15 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Julie Hudspeth Web Developer</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Julie Hudspeth Web Developer Personal Page and Portfolio:  Javascript, CSS3, React(JSX), DOM Manipulation, Ruby, jQuery, SEO. ">
+<meta name="author" content="Julie Hudspeth modified 7/2018">
 
 <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
@@ -21,10 +24,10 @@
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
+<link href="https://unpkg.com/ionicons@4.2.5/dist/css/ionicons.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +45,7 @@
       <div class="row">
         <div class="intro-text">
           <h1>Julie Hudspeth</h1>
-          <hr>
+          <hr id="hrIdName"></hr> 
           <p>Web Developer • Problem Solver</p>
           <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
       </div>
@@ -56,8 +59,6 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
       </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
@@ -79,40 +80,66 @@
     </div>
     <div class="row">
       <div class="col-md-12 text-center"><img src="about me.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-10 col-md-offset-1">
         <div class="about-text">
-          <p>Hello!  My name is Julie Hudspeth, and I'm an analytical web developer.  With a business background, I enjoy collaborating and finding creative and logical solutions.  I live in the Raleigh, NC area, and my husband, Thomas, and I have 3 young children.  I believe that being a mom has given me a valuable perspective to enhance the user experiences.</p>
-          <ol>Coursework:
-          <li>Codecademy Intensive Course Build Front-End Web Applications from Scratch</li>
-          <li>HeadFirst Javascript</li>
-          <li>Udemy The Complete Web Developer in 2018:  Zero to Mastery</li>
-           <li>Udemy Build Responsive Real World Websites with HTML5 and CSS3</li>
-          <li>Flatiron School Intro to Ruby</li></ol>
-          <p>Books:  Lean UX, Mental Models, Design-Studio Method, Design of Everyday Things</p>
-          <p>Skills:  Javascript, React(JSX), DOM Manipulation, Ruby, jQuery, SEO</p>
+            <div class="row">
+                   <p>Hello!  My name is Julie Hudspeth, and I'm an analytical web developer.  With a business background, I enjoy collaborating and finding creative and logical solutions.  I live in the Raleigh, NC area, and my husband, Thomas, and I have 3 young children.  I believe that being a mom has given me a valuable perspective to enhance the user experience.</p>
+     <div class="column" style="background-color:transparent;">
+                <h2>Coursework:</h2>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Codecademy Intensive Course Build Front-End Web Applications from Scratch
+                  </div>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Head First JavaScript Programming
+                  </div>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Udemy The Complete Web Developer in 2018:  Zero to Mastery
+                  </div>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Udemy Build Responsive Real World Websites with HTML5 and CSS3
+                  </div>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Udemy Learning Algorithms in JavaScript from Scratch
+                  </div>
+                  <div class="list-coursework">
+                    <i class="icon ion-md-bulb"></i> Flatiron School Intro to Ruby
+                  </div>
+    </div>
+              <div class="column" style="background-color:transparent;">
+                <h2>Books Studied:</h2>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> Lean UX: Designing Great Products with Agile Teams, by Jeff Gothelf
+                  </div>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> Mental Models: Aligning Design Strategy with Human Behavior, by Indi Young
+                  </div>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> The Design Studio Method: Creative Problem Solving with UX Sketching, by Brian Sullivan
+                  </div>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> Design of Everyday Things, by Don Norman
+                  </div>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> You Don't Know JavaScript, by Kyle Simpson
+                  </div>
+                  <div class="list-book">
+                    <i class="icon ion-md-book"></i> Don't Make Me Think, by Steve Krug
+                  </div>
+              </div>
+          </div>
+          <p><b>Highlighted Skills:  </b>Javascript, React(JSX), DOM Manipulation, Ruby, jQuery, SEO</p>
+<!-- Portfolio Section -->
           <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Portfolio</a> </div>
       </div>
     </div>
   </div>
 </div>
-
-      
-<!-- Portfolio Section -->
 <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
       <h2>Portfolio</h2>
       <hr>
     </div>
-    <!--<div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
-            <li><a href="#" data-filter=".illustration">Illustration</a></li>
-            <li><a href="#" data-filter=".photography">Photography</a></li>
-          </ol> -->
         </li>
       </ul>
       <div class="clearfix"></div>
@@ -121,171 +148,158 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 graphic">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://juliehudspeth.github.io/Battleship-Game/battleship.html" target="_blank" title="Battleship Javascript" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="https://juliehudspeth.github.io/Battleship-Game/battleship.html" target="_blank" title="Battleship Javascript">
               <div class="hover-text">
-                <h4>Battleship Javascript</h4>
+                <h4>Battleship - Javascript</h4>
               </div>
               <img src="img/portfolio/01-large.jpg" class="img-responsive" alt="Battleship Javascript"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://juliehudspeth.github.io/react-app-ravenous/" target="_blank" title="Ravenous:  Yelp API" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="https://juliehudspeth.github.io/react-app-ravenous/" target="_blank" title="Ravenous:  Yelp API" >
               <div class="hover-text">
-                <h4>Ravenous:  Yelp API</h4>
+                <h4>Ravenous:  Yelp API - React</h4>
               </div>
               <img src="img/portfolio/02-large.jpg" class="img-responsive" alt="Ravenous:  Yelp API"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 graphic">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="https://juliehudspeth.github.io/omnifood/" target="_blank" title="Responsive Website - JQuery, CSS3" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Responsive Website - JQuery, CSS3</h4>
               </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/03-large.jpg" class="img-responsive" alt="Responsive Website - JQuery, CSS3"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 graphic">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Tic Tac Toe - Ruby" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Tic Tac Toe - Ruby</h4>
               </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/04-large.jpg" class="img-responsive" alt="Tic Tac Toe - Ruby"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Rock Paper Scissors - JavaScript</h4>
               </div>
               <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Sleep Debt Calculator - JavaScript</h4>
               </div>
               <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 photography">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>JS Anime</h4>
               </div>
               <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 graphic">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Minesweeper - JavaScript</h4>
               </div>
               <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Minesweeper - JavaScript</h4>
               </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Minesweeper - JavaScript</h4>
               </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
+        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Minesweeper - JavaScript</h4>
               </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" >
               <div class="hover-text">
-                <h4>Project Title</h4>
+                <h4>Minesweeper - JavaScript</h4>
               </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" >
           </div>
         </div>
       </div>
     </div>
   </div>
-</div> --> 
+</div> 
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>Get In Touch</h2>
+      <h2>Contact</h2>
       <hr>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
-      </form>
+      <div class="row">
+    <h2>Email:</h2>
+    <h2 class="animated rubberBand">JulieJHudspeth@gmail.com</h2>
+    <img src="family-min.jpg" class="img-responsive-smaller">
+</div>
       <div class="social">
         <ul>
           <li><a href="https://www.facebook.com/juliejhudspeth" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://twitter.com/juliehudspeth" target="_blank"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/juliejhudspeth/" target="_blank"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.linkedin.com/in/julie-hudspeth-mba" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://www.github.com/juliehudspeth" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
       </div>
     </div>
   </div>
-</div>
+      </div>
+<!-- Footer -->
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
-     <!-- <p>Copyright &copy; 2016 Magnum. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p> -->
+      <p>Copyright &copy; <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script> Julie Hudspeth</p> 
     </div>
   </div>
 </div>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
