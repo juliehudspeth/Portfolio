@@ -280,9 +280,11 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 195px;
+	height: 155px;
+	margin: top;
 	overflow: hidden;
 	position: relative;
+	color: white;
 }
 .hover-bg .hover-text {
 	position: absolute;
