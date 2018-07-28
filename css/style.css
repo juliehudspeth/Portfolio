@@ -334,9 +334,8 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	margin: 120px 0 60px 0;
+	padding: 120px 0 60px 0;
 }
-
 #contact h3 {
 	padding-top: 20px;
 	font-size: 20px;
@@ -474,4 +473,3 @@ body h2.animated {
   max-width: 50%;
   height: auto;
 }
-
